@@ -33,7 +33,7 @@ let userIndex = 0;
 let level = 1;
 let allowKeyPress = true;
 if(allowKeyPress){
-    $(".btn").css("pointer-events","none");
+    $(".btn").css("pointer-events","none"); 
 }
 else{
     $(".btn").css("pointer-events","auto");

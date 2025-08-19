@@ -1,67 +1,63 @@
 *{
     padding: 0;
     border: 0;
-    margin: 0;
+    margin: 0px;
 }
+
+h1{
+    margin-top: 50px;
+}
+
+hr{
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
 body{
-    background-color: gray;
+    background-color: whitesmoke;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
 #input{
     background-color: whitesmoke;
-    border-radius: 50px;
-    border:0px;
+    border: 1px solid rgb(4, 133, 198);
+    border-radius: 5px;
     width: 40%;
     height: 20px;
     font-size: medium;
+    margin-top: 50px;
+    margin-right: 10px;
 }
-#input:focus{
-    outline:0;
-    border:1px solid black;
-}
+
 button{
-    border-radius: 50px;
-    border: 0px;
+    background-color: rgb(4, 133, 198);
+    color:white;
+    border: 1px solid rgb(4, 133, 198);
+    border-radius: 3px;
     cursor: pointer;
+    width: 70px;
+    height: 20px;
 }
 button:active{
     opacity: 0.5;
 }
-.navbar{
-    display: inline-flex;
-    justify-content: space-around;
-    width: 50%;
+
+li{
+    height: 50px;
 }
-.nav-btn{
-    cursor: pointer;
-}
-header{
+
+.listItems{
     display: flex;
-    justify-content: center;
+    width: 46%;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
 }
-.take-input{
-    display: flex;
-    justify-content: center;
-}
-.add{
-    margin-left: 20px;
-    width: 60px;
-    height: 23px;
-    padding-top: 2px;
-}
-.delete{
-    width: 60px;
-    height: 23px;
-    padding: 2px 6px;
-    padding-bottom: 1px;
-    margin-left: 300px;
-}
-.clear{
-    width: 70px;
-    height: 23px;
-    padding: 2px 6px;
-    padding-bottom: 1px;
-    padding-right: 5xp;
-}
-.task-area{
-    margin-left: 80px;
+
+.completed{
+    text-decoration: line-through;
+    color: gray; 
 }

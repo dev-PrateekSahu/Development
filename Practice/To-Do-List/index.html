@@ -8,27 +8,21 @@
 </head>
 <body>
     <div class="top">
-        <header><h1>My To-Do List</h1></header> <br><br>
-    
+        <header>
+            <h1>My To-Do List</h1>
+        </header> 
+        <hr>
+        
         <div class="take-input">
-            <input type="text" id="input" placeholder="Add new task" class="input" autofocus>
-            <button class="btn add">Add</button>
+            <input type="text" id="input" placeholder="Add new task..." class="input" autofocus>
+            <button class="btn add" onclick=addTask() >Add Task</button>
+            
         </div>
         
-        <br><br><br><br> 
-    
-        <nav class="navbar">
-            <span class="nav-btn">All</span>
-            <span class="nav-btn">Active</span>
-            <span class="nav-btn">Completed</span>
-            <button class="clear">Clear All</button>
-        </nav>
-        
     </div>
-    <br><br><br><br>
+
     <div class="task-area">
         <ul style="list-style: none;" class="list">
-             
         </ul>
     </div>
 
